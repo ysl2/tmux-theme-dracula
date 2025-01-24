@@ -41,17 +41,17 @@ main()
   show_empty_plugins=$(get_tmux_option "@dracula-show-empty-plugins" true)
 
   # Dracula Color Pallette
-  white="#f8f8f2"
-  gray="#44475a"
-  dark_gray="#282a36"
-  light_purple="#bd93f9"
-  dark_purple="#6272a4"
-  cyan="#8be9fd"
-  green="#50fa7b"
-  orange="#ffb86c"
+  white="#dcd7ba"
+  gray="#1e1e2e"
+  dark_gray="#1e1e2e"
+  light_purple="#938aa9"
+  dark_purple="#54546D"
+  cyan="#6a9589"
+  green="#938aa9"
+  orange="#dca561"
   red="#ff5555"
-  pink="#ff79c6"
-  yellow="#f1fa8c"
+  pink="#d27e99"
+  yellow="#ffa066"
 
   # Override default colors and possibly add more
   colors="$(get_tmux_option "@dracula-colors" "")"
